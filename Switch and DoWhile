@@ -1,0 +1,37 @@
+public static void Answer()
+    {
+        int ans;
+        Scanner in = new Scanner(System.in);
+        do{
+            System.out.println("Information");
+            System.out.println("1-If");
+            System.out.println("2-Switch");
+            System.out.println("3-While");
+            System.out.println("4-Do/While");
+            System.out.println("5-For");
+            ans=in.nextInt();
+        }while (ans<1||ans>5);
+        switch (ans)
+        {
+            case 1:
+                System.out.println("Оператор if (...) вычисляет и преобразует выражение в скобках к логическому типу.");
+                break;
+            case 2:
+                System.out.println("Оператор switch удобно использовать вместо большого количества операторов выбора if, с большой вложенностью.");
+                break;
+            case 3:
+                System.out.println("Опрератор while повторяет выполнение оператора следующего условия, до тех пор, пока это условие истинно.");
+                break;
+            case 4:
+                System.out.println("Оператор do-while позволяет повторять выполнение оператора или составного оператора до тех пор, пока указанное выражение не станет ложным.");
+                break;
+            case 5:
+                System.out.println("С помощью цикла for можно циклически выполнять оператор или блок операторов до тех пор, пока указанное выражение не будет являться false.");
+                break;
+            default:
+                System.out.println("Нет такого выбора в меню!");
+                break;
+        }
+
+
+    }
