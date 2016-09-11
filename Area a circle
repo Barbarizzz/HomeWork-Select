@@ -1,0 +1,7 @@
+ public static double Krug(double r,double pi)
+    {
+        double result;
+        result=pi*r*r;
+        System.out.println("Площадь круга равна="+result);
+        return  result;
+    }
